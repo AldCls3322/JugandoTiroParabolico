@@ -59,7 +59,7 @@ def move():
         if not inside(target):
             return
 
-    ontimer(move, 25) # Al reducir el segundo parametro se mueve mas rapido el juego. Previamente estaba en 50.
+    ontimer(move, 50)
 
 setup(420, 420, 370, 0)
 hideturtle()
